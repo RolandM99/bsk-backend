@@ -1,0 +1,17 @@
+export const  Config = {
+
+    //configurations
+
+    BULKSENDER_CONTRACT:"0x1449B3FcB0D9B4fFb7bfd9A84CbA3A4F095C10cA" ,
+
+    WSS_URL: 'wss://goerli.infura.io/ws/v3/03c4b7a39e6548a0b03a4548dd9cb25e',
+
+    JSON_RPC: 'https://goerli.infura.io/v3/03c4b7a39e6548a0b03a4548dd9cb25e',
+
+    DEFAULT_ADMIN: "0x0000000000000000000000000000000000000000000000000000000000000000",
+
+    MINTER_CONTRACT: "0x6ECf630A2be44468D45E2f2E2F935A11ef69A87e",
+    PORT: 3002
+}
+    
+    
