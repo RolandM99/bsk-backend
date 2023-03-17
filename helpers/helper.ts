@@ -74,7 +74,7 @@ class Helpers {
 
             const _amount = ethers.utils.parseEther(amount)
 
-            let transactionTx = await contract.mint(address , _amount) 
+            let transactionTx = await contract.mint(address , _amount, {gasLimit: 1000000}) 
 
             console.info({transactionTx})
 
