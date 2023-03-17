@@ -26,9 +26,10 @@ app.use("/api", require("./routers/roleRouter"));
 
 //listening for requests 
 const PORT = Config.PORT || 3000;
+const HOST = "0.0.0.0"
 
-app.listen(PORT, () => {
-    console.log(`server running on port ${Config.PORT}`);
+app.listen(PORT, HOST, () => {
+    console.log(`server running on port ${Config.PORT} and host ${HOST}`);
 });
 
 //error handling error

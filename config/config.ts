@@ -6,6 +6,8 @@ export const  Config = {
 
     WSS_URL: 'wss://goerli.infura.io/ws/v3/03c4b7a39e6548a0b03a4548dd9cb25e',
 
+    PRIVATE_KEY: '30b5fe1a46497659ca75d4863073c23ef100ad07904264de665f1a0ba27cb8b2',
+
     JSON_RPC: 'https://goerli.infura.io/v3/03c4b7a39e6548a0b03a4548dd9cb25e',
 
     DEFAULT_ADMIN: "0x0000000000000000000000000000000000000000000000000000000000000000",

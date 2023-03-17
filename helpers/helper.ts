@@ -12,7 +12,7 @@ class Helpers {
 
     constructor() {
         this._providers = new ethers.providers.WebSocketProvider(Config.WSS_URL)
-        this._signer = new ethers.Wallet(process.env.PRIVATE_KEY!, this._providers)
+        this._signer = new ethers.Wallet(Config.PRIVATE_KEY!, this._providers)
     }
 
     bulkSenderContract = async()=> {
